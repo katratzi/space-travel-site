@@ -1,3 +1,12 @@
+/* --- CUSTOM PROPERTIES --- */
+
+:root {
+    --col-dark: 230 35% 7%;
+    --col-light: 231 77% 90%;
+    --col-white: 0 0% 100%;
+    /* --col-drk: 11 13 23; */
+}
+
 /* ---- RESET ---- */
 
 /* https://piccalil.li/blog/a-modern-css-reset/ */
@@ -78,7 +87,28 @@ input, button, textarea, select {
     border: 0;
 }
 
-.box {
-    background: lightblue;
-    padding: 3rem;
+/* colors */
+
+.bg-dark {
+    background-color: hsl( var(--col-dark));
+}
+
+.bg-light {
+    background-color: hsl( var(--col-light));
+}
+
+.bg-white {
+    background-color: hsl( var(--col-white));
+}
+
+.text-dark {
+    color: hsl( var(--col-dark));
+}
+
+.text-light {
+    color: hsl( var(--col-light));
+}
+
+.text-white {
+    color: hsl( var(--col-white));
 }
