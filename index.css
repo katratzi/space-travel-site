@@ -112,3 +112,9 @@ input, button, textarea, select {
 .text-white {
     color: hsl( var(--col-white));
 }
+
+.example-component {
+    /* these are equivalent - the .*/
+    /* background-color: hsl( var(--col-light / 0.2)); */
+    background-color: hsl( 231 77% 90% / .2);
+}
